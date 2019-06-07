@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatistikDataBasen.Api.Core", "StatistikDataBasen.Api.Core\StatistikDataBasen.Api.Core.csproj", "{C0DE6A47-96FE-4D22-B553-F665065A9610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatistikDataBasen.Api.Core", "Source\StatistikDataBasen.Api.Core\StatistikDataBasen.Api.Core.csproj", "{68D904AA-D089-4632-AA44-60CB5BBB2E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatistikDataBasen.Api.ElectionTurnout", "StatistikDataBasen.Api.ElectionTurnout\StatistikDataBasen.Api.ElectionTurnout.csproj", "{80371C7D-E73D-448A-927D-45376E715A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatistikDataBasen.Api.ElectionTurnout", "Source\StatistikDataBasen.Api.ElectionTurnout\StatistikDataBasen.Api.ElectionTurnout.csproj", "{5157BD0C-6837-43C1-8926-AB3FFC804A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatistikDataBasen.Presentation.ConsoleApplication", "StatistikDataBasen.Presentation.ConsoleApplication\StatistikDataBasen.Presentation.ConsoleApplication.csproj", "{82666D75-909A-4B99-8483-1B4FBCD83B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatistikDataBasen.Presentation.ConsoleApplication", "Source\StatistikDataBasen.Presentation.ConsoleApplication\StatistikDataBasen.Presentation.ConsoleApplication.csproj", "{9D01E183-C3C0-4B02-AA30-64B94B42AA4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0DE6A47-96FE-4D22-B553-F665065A9610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0DE6A47-96FE-4D22-B553-F665065A9610}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0DE6A47-96FE-4D22-B553-F665065A9610}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0DE6A47-96FE-4D22-B553-F665065A9610}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80371C7D-E73D-448A-927D-45376E715A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80371C7D-E73D-448A-927D-45376E715A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80371C7D-E73D-448A-927D-45376E715A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80371C7D-E73D-448A-927D-45376E715A97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82666D75-909A-4B99-8483-1B4FBCD83B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82666D75-909A-4B99-8483-1B4FBCD83B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82666D75-909A-4B99-8483-1B4FBCD83B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82666D75-909A-4B99-8483-1B4FBCD83B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D904AA-D089-4632-AA44-60CB5BBB2E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D904AA-D089-4632-AA44-60CB5BBB2E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D904AA-D089-4632-AA44-60CB5BBB2E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D904AA-D089-4632-AA44-60CB5BBB2E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5157BD0C-6837-43C1-8926-AB3FFC804A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5157BD0C-6837-43C1-8926-AB3FFC804A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5157BD0C-6837-43C1-8926-AB3FFC804A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5157BD0C-6837-43C1-8926-AB3FFC804A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D01E183-C3C0-4B02-AA30-64B94B42AA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D01E183-C3C0-4B02-AA30-64B94B42AA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D01E183-C3C0-4B02-AA30-64B94B42AA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D01E183-C3C0-4B02-AA30-64B94B42AA4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
