@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace StatistikDataBasen.Api.ElectionTurnout
 {
@@ -23,11 +24,12 @@ namespace StatistikDataBasen.Api.ElectionTurnout
         {
             string county = token["key"][0].ToString();
             int year = int.Parse(token["key"][1].ToString());
+            double? turnout = null;
 
             //For the cases where turnout is not a number.
-            if (!double.TryParse(token["values"][0].ToString(), out double turnout))
+            if (double.TryParse(token["values"][0].ToString(), NumberStyles.Any, CultureInfo.InvariantCulture, out double result))
             {
-                turnout = -1;
+                turnout = result;
             }
 
             return new ElectionTurnoutDataPoint(year, county, turnout);

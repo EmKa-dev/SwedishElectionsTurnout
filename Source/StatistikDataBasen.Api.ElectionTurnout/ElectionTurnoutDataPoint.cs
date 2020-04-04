@@ -4,9 +4,9 @@
     {
         public int Year { get; }
         public string County { get; set; }
-        public double Turnout { get; }
+        public double? Turnout { get; }
 
-        public ElectionTurnoutDataPoint(int year, string county, double turnout)
+        public ElectionTurnoutDataPoint(int year, string county, double? turnout)
         {
             Year = year;
             County = county;
